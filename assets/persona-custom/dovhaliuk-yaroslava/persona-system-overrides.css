@@ -41,9 +41,9 @@ body {
 }
 
 .navbar-second.mat {
-  background: rgba(228, 246, 227, .86);
+  background: #e4f6e3;
   border-bottom: 1px solid rgba(76, 11, 49, .08);
-  backdrop-filter: blur(18px);
+  backdrop-filter: none;
 }
 
 .promotion_box {

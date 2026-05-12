@@ -1887,6 +1887,7 @@
   #teacher .teacher-compact-points .advantage-item,
   #teacher .teacher-compact-points .advantage-item.last {
     grid-template-columns: 42px minmax(0, 1fr);
+    align-items: center;
     padding: 14px;
   }
 
@@ -1898,10 +1899,17 @@
 
   #teacher .teacher-compact-points .advantage-text strong {
     font-size: 18px;
+    text-align: left;
   }
 
   #teacher .teacher-compact-points .advantage-text span {
     font-size: 14px;
+    text-align: left;
+  }
+
+  #teacher .teacher-compact-points .advantage-text {
+    align-items: flex-start !important;
+    text-align: left !important;
   }
 
   .reviews-modern {
@@ -1950,10 +1958,32 @@
 
   #final-cta .location-lable-box.transparent.light {
     grid-template-columns: 1fr;
+    gap: 8px;
+    background: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .14);
+    border-radius: 18px;
+    padding: 8px;
     max-width: 100%;
   }
 
+  #final-cta .date-label.green,
   #final-cta .location-label.white.small {
+    align-self: stretch;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: none !important;
     min-height: 48px;
+    border-radius: 14px;
+    text-align: center;
+  }
+
+  #final-cta .location-label.white.small {
+    background: rgba(255, 255, 255, .08);
+  }
+
+  #final-cta .date-label.green {
+    display: flex;
+    align-items: center;
   }
 }
