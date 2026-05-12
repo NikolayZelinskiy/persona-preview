@@ -691,10 +691,10 @@ body {
 }
 
 .hero-messenger-button {
-  color: #17c878;
+  color: #fff;
   text-align: center;
-  background: rgba(23, 200, 120, .1);
-  border: 1px solid rgba(23, 200, 120, .32);
+  background: #229ed9;
+  border: 1px solid rgba(34, 158, 217, .42);
   border-radius: 999px;
   justify-content: center;
   align-items: center;
@@ -707,7 +707,8 @@ body {
   font-weight: 700;
   line-height: 1;
   text-decoration: none;
-  transition: background .18s ease, border-color .18s ease, color .18s ease;
+  box-shadow: 0 14px 30px rgba(34, 158, 217, .18);
+  transition: background .18s ease, border-color .18s ease, color .18s ease, transform .18s ease, box-shadow .18s ease;
   display: flex;
 }
 
@@ -729,8 +730,10 @@ body {
 
 .hero-messenger-button:hover {
   color: #fff;
-  background: #17c878;
-  border-color: #17c878;
+  background: #1d8ec4;
+  border-color: #1d8ec4;
+  transform: translateY(-1px);
+  box-shadow: 0 18px 34px rgba(34, 158, 217, .24);
 }
 
 .hero-point-index {
