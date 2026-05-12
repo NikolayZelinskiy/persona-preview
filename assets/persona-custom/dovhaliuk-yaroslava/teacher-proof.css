@@ -1811,6 +1811,35 @@
   margin-top: 14px;
 }
 
+#final-cta .location-lable-box.transparent.light {
+  display: inline-grid;
+  grid-template-columns: auto minmax(260px, 1fr);
+  align-items: center;
+  max-width: 680px;
+  width: 100%;
+}
+
+#final-cta .location-label.white.small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  text-align: center;
+}
+
+.reviews-modern .review-card-type {
+  display: none;
+}
+
+.reviews-modern .review-card-text p {
+  margin-top: 0;
+}
+
+.reviews-modern .review-card-image h3,
+.reviews-modern .review-card-video h3 {
+  margin-top: 0;
+}
+
 @media screen and (max-width: 991px) {
   #teacher .info-section {
     grid-template-columns: 1fr !important;
@@ -1832,6 +1861,14 @@
 }
 
 @media screen and (max-width: 767px) {
+  #methodology .advantage-im {
+    height: 205px !important;
+  }
+
+  #methodology .advantage-im img {
+    object-position: center 20%;
+  }
+
   #teacher .info-section {
     border-radius: 24px;
     padding: 16px;
@@ -1909,5 +1946,14 @@
 
   .final-messenger-button {
     margin-top: 12px;
+  }
+
+  #final-cta .location-lable-box.transparent.light {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  #final-cta .location-label.white.small {
+    min-height: 48px;
   }
 }
