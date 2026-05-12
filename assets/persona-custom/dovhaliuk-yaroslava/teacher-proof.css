@@ -773,10 +773,10 @@
 
 .other-subjects-photo img {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 9.7;
   max-height: 520px;
   object-fit: cover;
-  object-position: center center;
+  object-position: center 38%;
   display: block;
 }
 
@@ -1643,9 +1643,9 @@
   .other-subjects-photo img {
     height: auto;
     max-height: none;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 10;
     object-fit: cover;
-    object-position: center center;
+    object-position: center 38%;
   }
 
   .other-subjects-photo:after {
