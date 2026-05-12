@@ -755,9 +755,11 @@
   position: relative;
   z-index: 1;
   max-width: none;
-  margin-left: -18px;
+  margin-left: 0;
   margin-right: 0;
-  overflow: visible;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #1b1514;
   filter: drop-shadow(0 20px 34px rgba(43, 30, 25, .13));
 }
 
@@ -771,9 +773,10 @@
 
 .other-subjects-photo img {
   width: 100%;
+  aspect-ratio: 16 / 9;
   max-height: 520px;
-  object-fit: contain;
-  object-position: left center;
+  object-fit: cover;
+  object-position: center center;
   display: block;
 }
 
@@ -1631,8 +1634,8 @@
 
   .other-subjects-photo {
     border-radius: 18px;
-    margin-left: -18px;
-    margin-right: -6px;
+    margin-left: 0;
+    margin-right: 0;
     min-height: 0;
     max-height: none;
   }
@@ -1640,9 +1643,9 @@
   .other-subjects-photo img {
     height: auto;
     max-height: none;
-    aspect-ratio: auto;
-    object-fit: contain;
-    object-position: left center;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center center;
   }
 
   .other-subjects-photo:after {
