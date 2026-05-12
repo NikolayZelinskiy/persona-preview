@@ -773,8 +773,8 @@
 
 .other-subjects-photo img {
   width: 100%;
-  aspect-ratio: 16 / 9.7;
-  max-height: 520px;
+  aspect-ratio: 16 / 10.7;
+  max-height: 620px;
   object-fit: cover;
   object-position: center 38%;
   display: block;
@@ -1643,7 +1643,7 @@
   .other-subjects-photo img {
     height: auto;
     max-height: none;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 16 / 10.9;
     object-fit: cover;
     object-position: center 38%;
   }
@@ -2388,11 +2388,12 @@
   }
 
   #trial-lesson .trial-cta-person {
-    justify-self: end;
+    justify-self: start;
     width: 172px;
     height: 150px;
     max-height: 160px;
     margin-top: -2px;
+    margin-left: 0;
     border-radius: 18px;
     object-fit: cover;
     object-position: center bottom;
